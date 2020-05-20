@@ -1,11 +1,8 @@
 import { defineConfig } from 'umi';
-
 export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  routes: [
-    { path: '/', component: '@/layout/index' },
-    // { path: '/', component: '@/pages/index' },
-  ],
+  routes: [{ path: '/', component: '@/layout/index' }],
 });
+//# sourceMappingURL=.umirc.js.map
